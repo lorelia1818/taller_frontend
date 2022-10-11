@@ -1,6 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import AppHeader from "./component/AppHeader";
+import AppBody from "./component/AppBody";
+import AppFooter from "./component/AppFooter";
 
+function Container() {
+    return(
+        <section>
+            <AppHeader></AppHeader>
+            <AppBody></AppBody>
+            <AppFooter></AppFooter>
+        </section>
+       
+    );
+}
+
+export default Container;
+
+/*
 function App() {
   return (
 
@@ -21,7 +36,7 @@ function App() {
         </a>
       </header>
     </div>*/
-    <div className="App">
+   /* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -42,5 +57,7 @@ function App() {
     </div>
   );
 }
+*/
+/*export default App;*/
 
-export default App;
+
