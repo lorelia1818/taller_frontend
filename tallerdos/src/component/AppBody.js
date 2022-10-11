@@ -3,8 +3,8 @@ import tree from "../images/tree.jpg";
 import tree2 from "../images/tree2.jpg"
 import video from "../images/video.mp4";
 
-
 class AppBody extends Component {
+    
     render(){
         return(
             <body>
