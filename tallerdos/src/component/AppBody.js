@@ -10,7 +10,7 @@ class AppBody extends Component {
             <body>
                 <div 
             style={{
-                backgroundColor: "#D8F6F9",
+                backgroundColor: "#00FFFF",
                 height: "110%",
                 width: "100%",
                 position: "absolute",   
@@ -19,11 +19,11 @@ class AppBody extends Component {
                 <h1 class="title" 
                     style={{
                         fontfamily: 'Times New Roman, Times, serif',
-                        color: "#42585a",
+                        color: "#000000",
                         fontfamily: "calibri-bold",
                         textAlign: "center"
                     }}>
-                    Pagina web<br></br><br></br>
+                   Welcome<br></br><br></br>
                 </h1>
             <div
                 style={{ 
@@ -33,7 +33,7 @@ class AppBody extends Component {
                         width: "40%",
                         marginLeft: "3%",
                         }}>
-
+                     <p align="center">Pink Tree</p>    
                 <figure style={{marginLeft: "-8%", marginTop:"25%"}}>
                     <img 
                         src={tree}
@@ -45,7 +45,6 @@ class AppBody extends Component {
                         }} 
                     />  
                 </figure>
-
                 <figure style={{marginLeft: "5%", marginTop:"25%"}}>
                     <img 
                         src={tree2}
@@ -56,8 +55,8 @@ class AppBody extends Component {
                             height:"200px" 
                         }} 
                     />  
-                </figure>
-
+                </figure> 
+               
             </div>
             <div 
                 style={{ 
@@ -67,7 +66,7 @@ class AppBody extends Component {
                     width: "40%",
                     marginLeft: "14%",
                     }}>
-                        
+                           <p align="center">Moving Tree</p>
                     <figure style={{marginTop: "25%", marginLeft: "10%"}}>
                     <video
                         src={video}
@@ -77,8 +76,7 @@ class AppBody extends Component {
                         }} 
                     />  
                 </figure>
-            </div>   
-                    
+            </div>              
         </div>
             </body>
         );

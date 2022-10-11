@@ -4,8 +4,7 @@ import logo from "../images/logo.png";
 
 class AppHeader extends Component {
     render(){
-        return(
-                    
+        return(            
         <header 
             id="hd" 
             style={{
@@ -13,7 +12,6 @@ class AppHeader extends Component {
                 border: "1px solid white",
                 height: "100%",
                 width: "100%",
-                
             }}>
                 <ul style={{
                     fontWeight:"600px",
@@ -22,35 +20,39 @@ class AppHeader extends Component {
                     fontSize:"10px"
 
                 }}>
-                    <a href="CLASS" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"15px"}}><b>INICIO</b></a>&nbsp;
-                    <a href="PUBLICIDAD" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"15px" }}><b>PUBLICIDAD</b></a>&nbsp;
-                    <a href="CONTACTO" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"15px" }}><b>CONTACTO</b></a>&nbsp;
-                    <a href="GALERIA" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"15px" }} ><b>GALERIA</b></a>&nbsp;
-                    <a href="PRODUCTOS" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"15px" }}><b>PRODUCTOS</b></a>
+                    <a href="CLASS" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"10px"}}>
+                        <b>Start</b></a>&nbsp;
+                    <a href="Advertising" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"10px" }}>
+                        <b>Advertising</b></a>&nbsp;
+                    <a href="Contact" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"10px" }}>
+                        <b>Contact</b></a>&nbsp;
+                    <a href="Gallery" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"10px" }} >
+                        <b>Gallery</b></a>&nbsp;
+                    <a href="Products" style={{ color: "#050605 ",  textDecorationLine:'none', margin:"10px" }}>
+                        <b>Products</b></a>
                     
-
-                    <span class="icon" style={{marginLeft:"31%"}}><i class="fa fa-search"></i></span>
-                    <input type="search" id="search" placeholder="Search" />
+                    <span class="icon" style={{marginLeft:"25%"}}><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search" /> 
+                <figure style={{marginLeft: "90%", marginTop:"-50px"}}>
                 
-                <figure style={{marginLeft: "90%", marginTop:"-60px"}}>
                     <img 
                         src={user}
                         style={{
-                            marginLeft: "5%",	
-                            width:"45px",
-                            height:"45px"   
+                            marginLeft: "2%",	
+                            width:"40px",
+                            height:"40px"   
                         }}   
                     />  
                                              
-                    <figcaption>PERFIL</figcaption>
+                    <figcaption>profile</figcaption>
                 </figure> 
-                <figure style={{marginLeft: "79%", marginTop:"-90px"}}>
+                <figure style={{marginLeft: "70%", marginTop:"-90px"}}>
                     <img 
                         src={logo}
                         style={{
-                            marginLeft: "3%",	
-                            width:"90px",
-                            height:"80px"  
+                            marginLeft: "2%",	
+                            width:"100px",
+                            height:"90px"  
                         }} 
                     />  
                 </figure>                    
