@@ -10,7 +10,6 @@ class AppFooter extends Component {
                 fontSize: "15px",
             }}
         >
-
         <div style = { {marginTop:"55%"}}>
         <p>
             <br></br>
